@@ -56,7 +56,7 @@ groq
 ### 4. Buat file .env di folder yang sama dengan app.py
 GROQ_API_KEY=isi_api_key_groq_kamu
 
-## ▶️ Menjalankan Aplikasi
+## Menjalankan Aplikasi
 
 ```bash
 streamlit run app.py
@@ -70,7 +70,7 @@ Biasanya aplikasi dapat diakses melalui:
 http://localhost:8501
 ```
 
-## 🔑 Mendapatkan Groq API Key
+## Mendapatkan Groq API Key
 
 Aplikasi ini membutuhkan API key dari Groq agar bisa mengakses model bahasa. Berikut langkahnya:
 
