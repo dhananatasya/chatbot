@@ -1,0 +1,10 @@
+.env
+!.env.example
+
+chat_history/
+
+__pycache__/
+
+chatbot.ipynb
+
+.DS_Store
