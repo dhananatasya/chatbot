@@ -19,7 +19,7 @@ Chatbot Sobat Dolan tidak hanya menyediakan rekomendasi, tetapi juga dapat diand
 
 ## 📂 Struktur Project
 Struktur utama chatbot Sobat Dolan: 
-
+```
 chatbot/
 │
 ├── .env
@@ -102,3 +102,25 @@ Berikut merupakan tampilan contoh penggunaan chatbot Sobat Dolan
 
 ### Tampilan Awal Chatbot Sobat Dolan
 ![alt text](image.png)
+
+### Chat Rekomendasi Wisata
+![alt text](image-8.png)
+
+### Menjalankan Perintah /help
+![alt text](image-2.png)
+
+### Menjalankan Perintah /funfact
+![alt text](image-7.png)
+
+### Chat di Luar Topik Rekomendasi Wisata
+![alt text](image-3.png)
+
+### Chat Menyediakan Rancangan Itinerary
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+
+## Penggunaan AI dalam Pengembangan Chatbot
+Dalam pengerjaan chatbot Sobat Dolan, penggunaan bantuan AI digunakan pada tahap brainstorming tema chatbot serta pada perancangan dan pengembangan tampilan chatbot. Generative AI membantu dalam menentukan arah dan konsep chatbot sebagai asisten rekomendasi wisata Jawa Timur, kemudian membantu menyusun tampilan antarmuka agar terlihat rapi dan nyaman digunakan. 
+Penambahan fitur perintah dan pembuatan readme juga dibantu oleh Generative AI guna meningkatkan kerapihan dalam menyusun struktur readme agar mudah dipahami setiap tahapannya. 
+Seluruh hasil Generative AI telah diuji ulang dan disesuaikan dengan kebutuhan proyek.
