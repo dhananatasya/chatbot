@@ -607,7 +607,7 @@ def handle_command(text: str) -> bool:
             f"**🧭 Tahukah kamu? — {destination}**\n\n{fact}",
         )
 
-    elif command in ("/hapus", "/delete"):
+    elif command in ("/delete"):
         remove_chat(st.session_state.chat_id)
         st.session_state.notice = (
             "success",
@@ -714,7 +714,7 @@ with st.sidebar:
                 <code>/help</code> · panduan penggunaan<br>
                 <code>/reset</code> · mulai ulang percakapan<br>
                 <code>/funfact</code> · fakta unik destinasi<br>
-                <code>/hapus</code> · hapus chat ini<br>
+                <code>/delete</code> · hapus chat ini<br>
                 <code>/exit</code> · akhiri sesi
             </div>
         </div>
