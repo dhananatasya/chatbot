@@ -17,21 +17,6 @@ Chatbot Sobat Dolan tidak hanya menyediakan rekomendasi, tetapi juga dapat diand
 * /delete Menghapus percakapan yang sedang dibuka
 * /exit Menyimpan dan mengakhiri sesi
 
-## 📂 Struktur Project
-Struktur utama chatbot Sobat Dolan: 
-```
-chatbot/
-│
-├── .env
-├── .env.example
-├── .gitignore
-├── app.py
-├── README.md
-├── requirements.txt
-├── chat_history
-    └── .json
-```
-
 ## Instalasi
 
 ### 1. Clone Repository
@@ -96,6 +81,39 @@ Aplikasi ini membutuhkan API key dari Groq agar bisa mengakses model bahasa. Ber
 5. Salin API key yang muncul (biasanya diawali gsk_). Key ini umumnya hanya ditampilkan sekali, jadi simpan segera. Jika terlewat, buat key baru.
 6. Tempel ke file .env di folder proyek, tanpa spasi dan tanpa tanda kutip:
    GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxx
+
+## Penjelasan Kode
+### Struktur Project
+Struktur utama chatbot Sobat Dolan: 
+```
+chatbot/
+│
+├── .env
+├── .env.example
+├── .gitignore
+├── app.py
+├── README.md
+├── requirements.txt
+├── chat_history
+    └── .json
+```
+ ### app.py
+ Berisi seluruh kode aplikasi yang terdapat konfigurasi model, system prompt chatbot, fungsi untuk membersihkan jawaban dan mengelola riwayatchat, kode CSS untuk tampilan chatbot, quick prompt, perintah-perintah khusus, serta proses bagaimana pesan dikirim ke Groq API.
+
+### .env
+Untuk menyimpan API Groq yang akan dibaca oleh python-dotenv saat chatbot dijalankan.
+
+### requirements.txt 
+Berisi daftar library yang digunakan seperti streamlit, python-dotenv dan groq.
+
+### .gitignore 
+Untuk menentukan file mana saja yang tidak ikut masuk ke dalam Git seperti .env, chat_history, dan pychace
+
+### chat_history
+Dibuat untuk menyimpan setiap percakapan dalam satu file JSON
+
+### README.md
+Digunakan untuk menyimpan dokumentasi pengembangan chatbot seperti deskripsi, cara menggunakan, cara menjalankan, penjelasan fitur-fitur, dan penjelasan lainnya.
 
 ## Contoh Capture Percakapan
 Berikut merupakan tampilan contoh penggunaan chatbot Sobat Dolan
